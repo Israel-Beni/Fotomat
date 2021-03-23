@@ -84,7 +84,13 @@ header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 500px) {
+  header {
+    padding: 0;
+    height: 48px;
+    box-sizing: border-box;
+  }
+
   header .desktop {
     display: none;
   }
@@ -92,9 +98,12 @@ header .mobile {
   header .mobile {
     display: block;
     width: 100%;
+    padding: 0;
+    align-items: center;
   }
 
   header .content {
+    box-sizing: border-box;
     padding: .5rem 0;
   }
 
