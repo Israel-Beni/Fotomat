@@ -1,6 +1,6 @@
 # Fotomat
 
-It is a block webpage for photography.
+It is a blog webpage for photography.
 
 ## Table of Contents
 
